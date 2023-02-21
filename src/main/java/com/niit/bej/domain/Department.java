@@ -1,5 +1,7 @@
 package com.niit.bej.domain;
 
+import java.util.Objects;
+
 public class Department {
     private int departmentId;
     private String departmentName;
@@ -45,5 +47,18 @@ public class Department {
                 ", departmentName='" + departmentName + '\'' +
                 ", departmentLocation='" + departmentLocation + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Department that = (Department) o;
+        return departmentId == that.departmentId && Objects.equals(departmentName, that.departmentName) && Objects.equals(departmentLocation, that.departmentLocation);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(departmentId, departmentName, departmentLocation);
     }
 }
