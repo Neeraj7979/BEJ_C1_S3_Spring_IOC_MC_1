@@ -13,4 +13,28 @@ public class Department {
 
     public Department() {
     }
+
+    public int getDepartmentId() {
+        return departmentId;
+    }
+
+    public void setDepartmentId(int departmentId) {
+        this.departmentId = departmentId;
+    }
+
+    public String getDepartmentName() {
+        return departmentName;
+    }
+
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
+    }
+
+    public String getDepartmentLocation() {
+        return departmentLocation;
+    }
+
+    public void setDepartmentLocation(String departmentLocation) {
+        this.departmentLocation = departmentLocation;
+    }
 }
