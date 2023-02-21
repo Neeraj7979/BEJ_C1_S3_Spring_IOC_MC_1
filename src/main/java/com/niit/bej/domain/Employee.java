@@ -38,4 +38,13 @@ public class Employee {
     public void setDepartment(Department department) {
         this.department = department;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "employeeName='" + employeeName + '\'' +
+                ", employeeId=" + employeeId +
+                ", department=" + department +
+                '}';
+    }
 }
