@@ -12,7 +12,7 @@ public class ConfigBean {
         employee.setEmployeeName("Neeraj kumar");
         return employee;
     }
-
+    @Bean
     public Department getDepartmentDetails() {
         Department department = new Department();
         department.setDepartmentId(52);

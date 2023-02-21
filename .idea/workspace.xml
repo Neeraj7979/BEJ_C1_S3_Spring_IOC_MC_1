@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30b1ba4-86ad-4833-8004-7d513e311e63" name="Changes" comment="Created Dependencies for the Spring Framework in pom.xml file">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b30b1ba4-86ad-4833-8004-7d513e311e63" name="Changes" comment="Create bean for Department class object department" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M3vv42PASlPNch2piHBM8v819p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,7 +61,84 @@
       <option name="project" value="LOCAL" />
       <updated>1677009585548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created Constructors for the fields of the class Department">
+      <created>1677009850594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677009850594</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created getter and setter method for the fields of the class Department">
+      <created>1677009880775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677009880775</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Override toString method for the fields of the class Department">
+      <created>1677009909504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677009909504</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Override equals method and hash code for the fields of the class Department">
+      <created>1677009951847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677009951847</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created class employee and its properties">
+      <created>1677010043916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677010043916</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created constructors for the properties of employee class">
+      <created>1677010134076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677010134076</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created getter and setter for the properties of employee class">
+      <created>1677010156529</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677010156529</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Override toString method for the properties of employee class">
+      <created>1677010190038</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677010190038</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Override equalsMethod and hash code method for the properties of employee class">
+      <created>1677010223389</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677010223389</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create bean for Employee class object employee">
+      <created>1677010414952</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677010414952</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create bean for Department class object department">
+      <created>1677010516175</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677010516175</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,7 +155,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Created Dependencies for the Spring Framework in pom.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Dependencies for the Spring Framework in pom.xml file" />
+    <MESSAGE value="Created Constructors for the fields of the class Department" />
+    <MESSAGE value="Created getter and setter method for the fields of the class Department" />
+    <MESSAGE value="Override toString method for the fields of the class Department" />
+    <MESSAGE value="Override equals method and hash code for the fields of the class Department" />
+    <MESSAGE value="Created class employee and its properties" />
+    <MESSAGE value="Created constructors for the properties of employee class" />
+    <MESSAGE value="Created getter and setter for the properties of employee class" />
+    <MESSAGE value="Override toString method for the properties of employee class" />
+    <MESSAGE value="Override equalsMethod and hash code method for the properties of employee class" />
+    <MESSAGE value="Create bean for Employee class object employee" />
+    <MESSAGE value="Create bean for Department class object department" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create bean for Department class object department" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

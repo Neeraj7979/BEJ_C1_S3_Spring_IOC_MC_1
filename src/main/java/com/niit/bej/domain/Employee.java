@@ -1,5 +1,7 @@
 package com.niit.bej.domain;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.Objects;
 
 public class Employee {
@@ -15,6 +17,11 @@ public class Employee {
 
     public Employee() {
 
+    }
+
+    @Autowired
+    public Employee(Department department) {
+        this.department = department;
     }
 
     public String getEmployeeName() {
